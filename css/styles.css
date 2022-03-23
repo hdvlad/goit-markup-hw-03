@@ -1,0 +1,218 @@
+:root {
+    --first-color: #212121;
+    --second-color: #2196f3;
+    --paragraph-color: #757575;
+    --logo-footer-color: #ffffff;
+    --color-footer: rgba(100%, 100%, 100%, 60%);
+    --background-color: #2F303A;
+    --buttons-background-color: #F5F4FA;
+    --main-font: "Roboto";
+}
+/*цвет Веб Студио*/
+.logo-second-color{
+    color: var(--second-color);
+}
+.logo-first-color{
+    color: var(--first-color)
+}
+.logo-footer-color{
+    color: var(--logo-footer-color)
+}
+/*цвет страницы*/
+body {
+    font-family: var(--main-font), sans-serif;
+    background-color: #ffffff;}
+/*Убраны точк*/
+li{
+    list-style: none;
+}
+/*убраны подчеркивания*/
+a {
+    text-decoration: none;
+}
+/*цвет нижней полосы*/
+footer{
+    background-color: var(--background-color);
+}
+/*навигация*/
+.main{
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.menu {
+    font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: left;
+    color: var(--first-color);
+}
+.menu-current {
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: left;
+    color: var(--first-color);
+}
+.menu:hover,
+.menu:focus{
+    color: var(--second-color);
+}
+.menu-current{
+    color: var(--second-color);
+}
+/*контакты*/
+.contacts{
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color)
+}
+.contacts:hover,
+.contacts:focus{
+    color: var(--second-color);
+}
+/*фильтры*/
+.filters{
+    color: var(--first-color);
+}
+.filters:hover,
+.filters:focus{
+    color: var(--logo-footer-color);
+    background-color: var(--second-color);
+}
+.filters {
+    font-family: var(--main-font);
+    background-color: var(--buttons-background-color);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+/*адрес в footer*/
+.address{
+    text-decoration: none;
+}
+
+.address{
+    font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: var(--logo-footer-color)
+}
+.contacts-footer{
+    font-family: var();
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: var(--color-footer)
+}
+.contacts-footer:hover,
+.contacts-footer:focus{
+    color: var(--second-color);
+}
+/*главнаое название*/
+.hero{
+    background-color: var(--background-color);
+}
+.services{
+    font-family: var(--main-font), sans-serif;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-align: center;
+text-transform: uppercase;
+color: var(--logo-footer-color);
+}
+/*кнопка*/
+.services-button{
+    font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--logo-footer-color);
+  background-color: var(--second-color);
+  cursor: pointer;
+}
+/*особенности*/
+.special-title {
+    font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--first-color);
+}
+.special-context {
+    font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--paragraph-color);
+}
+/*Чем мы занимемся*/
+.subtitle{
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+/*команда*/
+.name-team{
+font-family: var(--main-font);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--first-color);
+}
+.about-team{
+font-family: var(--main-font);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--paragraph-color);
+}
+
+/*портфолио*/
+.portfolio-name {
+    font-family: var(--main-font);
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--first-color);
+}
+.portfolio-text {
+    font-family: var(--main-font);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: var(--paragraph-color);
+}
