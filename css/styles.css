@@ -8,6 +8,13 @@
     --buttons-background-color: #F5F4FA;
     --main-font: "Roboto";
 }
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /*цвет Веб Студио*/
 .logo-second-color{
     color: var(--second-color);
@@ -35,12 +42,20 @@ footer{
     background-color: var(--background-color);
 }
 /*навигация*/
+.tools:not(lasr-child){
+    margin-right: 50px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
 .main{
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-right: 92px;
 }
 .menu {
     font-family: "Roboto";
@@ -68,6 +83,12 @@ text-align: left;
     color: var(--second-color);
 }
 /*контакты*/
+.mail{
+    margin-left: auto;
+}
+.tel{
+    margin-left: 50px;
+}
 .contacts{
     font-family: var(--main-font);
     font-weight: 500;
